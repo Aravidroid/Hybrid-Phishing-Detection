@@ -96,16 +96,6 @@ Outputs:
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
-
-metaverse-phishing/ │ ├── metaverse_guard.py \# Main detection engine
-├── train_nlp.py \# NLP model training ├── train_url_model.py \# URL ML
-training ├── feature_extractor.py \# URL feature engineering │ ├──
-nlp_phishing_model.pkl ├── tfidf_vectorizer.pkl ├──
-url_phishing_model.pkl ├── url_feature_names.pkl │ └── README.md
-
-------------------------------------------------------------------------
-
 ## ⚙ Installation
 
 pip install pandas scikit-learn joblib
