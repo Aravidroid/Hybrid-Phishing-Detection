@@ -2,9 +2,9 @@
 
 A hybrid phishing detection system that combines:
 
--   🧠 NLP-based social engineering detection\
--   🌐 URL structural & lexical analysis\
--   ⚖ Rule-based high precision engine\
+-   🧠 NLP-based social engineering detection
+-   🌐 URL structural & lexical analysis
+-   ⚖ Rule-based high precision engine
 -   🔀 Decision fusion logic
 
 Built entirely in Python.
@@ -20,13 +20,13 @@ Instead of relying on a single model, it combines:
 
 Incoming Message\
 ↓\
-Text → NLP Model (TF-IDF + Naive Bayes)\
+Text → NLP Model (TF-IDF + Naive Bayes)
 ↓\
-URL → Feature Extractor → RandomForest Model\
+URL → Feature Extractor → RandomForest Model
 ↓\
-Rule Engine (High-confidence checks)\
+Rule Engine (High-confidence checks)
 ↓\
-Decision Fusion Layer\
+Decision Fusion Layer
 ↓\
 Final Security Decision
 
@@ -49,21 +49,21 @@ Example: "URGENT: TRANSFER FUNDS NOW"
 
 ### 2️⃣ URL Machine Learning Model
 
--   RandomForestClassifier\
--   Custom feature extraction\
+-   RandomForestClassifier
+-   Custom feature extraction
 -   Balanced class weighting
 
 Extracted features include:
 
--   URL length\
--   Domain length\
--   Path length\
--   Dot count\
--   Subdomain count\
--   Suspicious keywords\
--   Digit ratio\
--   Domain entropy\
--   Suspicious TLD detection\
+-   URL length
+-   Domain length
+-   Path length
+-   Dot count
+-   Subdomain count
+-   Suspicious keywords
+-   Digit ratio
+-   Domain entropy
+-   Suspicious TLD detection
 -   IP-based domain detection
 
 ------------------------------------------------------------------------
@@ -72,9 +72,9 @@ Extracted features include:
 
 High-confidence rules:
 
--   IP-based domains\
--   Excessive subdomains\
--   Suspicious keyword concentration\
+-   IP-based domains
+-   Excessive subdomains
+-   Suspicious keyword concentration
 -   Obvious structural anomalies
 
 ------------------------------------------------------------------------
@@ -83,15 +83,15 @@ High-confidence rules:
 
 Combines:
 
--   NLP risk score\
--   URL ML score\
+-   NLP risk score
+-   URL ML score
 -   Rule engine signals
 
 Outputs:
 
--   ✅ CLEAN\
--   ⚠ WARNING\
--   🚫 URL BLOCKED\
+-   ✅ CLEAN
+-   ⚠ WARNING
+-   🚫 URL BLOCKED
 -   🚨 CRITICAL BLOCK
 
 ------------------------------------------------------------------------
@@ -129,23 +129,23 @@ python metaverse_guard.py
 
 ## 🛠 Technologies Used
 
--   Python 3.12\
--   Scikit-learn\
--   Pandas\
--   RandomForestClassifier\
--   Multinomial Naive Bayes\
--   TF-IDF\
+-   Python 3.12
+-   Scikit-learn
+-   Pandas
+-   RandomForestClassifier
+-   Multinomial Naive Bayes
+-   TF-IDF
 -   Custom feature engineering
 
 ------------------------------------------------------------------------
 
 ## 🎯 Future Improvements
 
--   Domain reputation integration\
--   WHOIS age lookup\
--   XGBoost upgrade\
--   FastAPI deployment\
--   Real-time dashboard\
+-   Domain reputation integration
+-   WHOIS age lookup
+-   XGBoost upgrade
+-   FastAPI deployment
+-   Real-time dashboard
 -   Cloud deployment
 
 ------------------------------------------------------------------------
