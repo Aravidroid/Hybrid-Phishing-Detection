@@ -1,4 +1,4 @@
-# 🛡️ Metaverse Guard -- Hybrid Phishing Detection Engine
+# 🛡️Hybrid Phishing Detection Engine
 
 A hybrid phishing detection system that combines:
 
