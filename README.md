@@ -13,7 +13,7 @@ Built entirely in Python.
 
 ## 🚀 Project Overview
 
-Metaverse Guard is a multi-layer phishing detection engine designed to
+This is a multi-layer phishing detection engine designed to
 simulate real-world security systems.
 
 Instead of relying on a single model, it combines:
@@ -112,7 +112,7 @@ Train URL model: python train_url_model.py
 
 ## ▶ Run Detection Engine
 
-python metaverse_guard.py
+python main.py
 
 ------------------------------------------------------------------------
 
